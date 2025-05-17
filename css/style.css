@@ -9,6 +9,7 @@
     scroll-padding-top: 2rem;
 }
 
+
 :root {
     --main-color: #ffb43a;
     --hover-color: hsl(37, 94%, 57%);
@@ -34,4 +35,55 @@ body {
     color: var(--text-color);
     /* font-size: 1rem;
     line-height: 1.5; */
+}
+.container {
+    max-width: 1068px;
+    margin: auto;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: var(--container-color);
+    padding: 1rem 0;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/*Logo */
+.logo {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--main-color);
+    text-transform: uppercase;
+    margin: 0 auto 0 0;
+}
+
+.logo span {
+    color: var(--main-color);
+}
+
+/* Search Box */
+.search-box{
+    max-width:240px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 0.7rem;
+    padding: 8px 15px;
+    background: var(--container-color);
+    border-radius: 4px;
 }
