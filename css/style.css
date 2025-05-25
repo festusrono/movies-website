@@ -226,11 +226,34 @@ header {
     align-items: center;
     background: var(--container-color);
     padding: 8px 14px;
-    border: 1px solid hsl(200, 100%, 99% / 5%);
+    border: 1px solid hsl(200 100% 99% / 5%);
     margin-bottom: 2rem;
 }
 
 .heading-title{
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+/* Movie Box */
+.movie-box{
+    display: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+.movie-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.movie-box .box-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
