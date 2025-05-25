@@ -272,3 +272,25 @@ header {
     font-size: 0.938rem;
     font-weight: 500;
 }
+
+.play-btn{
+    position: absolute;
+    top: 0.8rem;
+    bottom: 0.8rem;
+}
+
+/* swpier Btns */
+.swiper-btn{
+    display: flex;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    position: static !important;
+    margin: 0 0 0 10px !important;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    color: var(--text-color);
+    font-size: 18px !important;
+    font-weight: 700;
+}
