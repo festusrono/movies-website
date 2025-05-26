@@ -294,3 +294,9 @@ header {
     font-size: 18px !important;
     font-weight: 700;
 }
+/* Movies */
+.movies .heading{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(247px, 1fr));
+    gap: 1.5rem;
+}
