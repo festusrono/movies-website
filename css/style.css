@@ -331,3 +331,9 @@ header {
     background: var(--hover-color);
     transition: 0.3s all linear;
 }
+
+/* Copyright    */
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
