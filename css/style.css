@@ -295,8 +295,39 @@ header {
     font-weight: 700;
 }
 /* Movies */
-.movies .heading{
+/* .movies .heading{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(247px, 1fr));
     gap: 1.5rem;
+} */
+ .movies .heading{
+    padding: 10px 14px;
+ }
+
+ .movies-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(247px, 1fr));
+    gap: 1.5rem;
+ }
+
+ .movies-content .movie-box:hover .movie-box-img{
+    transform: scale(1.1);
+    transition: 0.5s;
+ }
+
+ .next-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+ }
+.next-btn{
+    background: var(--main-color);
+    padding: 12px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.next-btn:hover{
+    background: var(--hover-color);
+    transition: 0.3s all linear;
 }
