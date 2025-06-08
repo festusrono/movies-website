@@ -360,4 +360,31 @@ header {
     display: flex;  
     flex-direction: column;
     justify-content: flex-end;
+    padding: 40px;
+    background: linear-gradient(
+        8deg,
+        hsl(240 17% 14% / 74%) 14%,
+        hsl(240 17% 14% / 14%) 44%
+    );
+}
+.play-text h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    column-gap: 0.5rem;
+    margin-top: 4px;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    margin: 1rem 0;
+}
+.tags span{
+    padding: 0 4px;
+    background: var(--container-color);
 }
