@@ -388,3 +388,9 @@ header {
     padding: 0 4px;
     background: var(--container-color);
 }
+.play-movie{
+    position: absolute;
+    bottom: 18rem;
+    right: 10rem;
+    display: flex !important;   
+}
